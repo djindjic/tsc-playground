@@ -1,3 +1,5 @@
-import { domready } from './domready';
+import { mylib } from './mylib';
 
-console.log(domready());
+console.log(mylib());
+
+export { mylib };
