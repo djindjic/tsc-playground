@@ -1,2 +1,1 @@
-declare function MyFunction(): string;
-export = MyFunction;
+export = Function;
