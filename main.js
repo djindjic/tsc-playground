@@ -1,4 +1,5 @@
 "use strict";
-var mylib_1 = require("./mylib");
-exports.mylib = mylib_1.mylib;
-console.log(mylib_1.mylib());
+var commonjs_functions_lib_1 = require("./commonjs-functions-lib");
+var commonjs_object_1 = require("./commonjs-object");
+console.log(commonjs_functions_lib_1.func1(), commonjs_functions_lib_1.func2());
+console.log(commonjs_object_1.mylib.func1(), commonjs_object_1.mylib.func2());
